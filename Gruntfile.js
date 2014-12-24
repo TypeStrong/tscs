@@ -11,8 +11,7 @@ module.exports = function (grunt) {
                     "**/*.ts",
                     "!node_modules/**/*.ts",
                     "!**/TypeScript/**/*"
-                ],
-                watch: './lib',
+                ]
             }
         }
     });
