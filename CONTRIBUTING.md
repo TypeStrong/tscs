@@ -22,3 +22,11 @@ var ts = import("typescript");
 ---
 
 For now we just copied the `bin` folder and `package.json` into our `node_modules` folder and checked that in. 
+
+# Using visual studio 
+Update the language service as documented https://github.com/Microsoft/TypeScript/issues/1110#issuecomment-62451204 
+
+1. Copy `tsc.js` to `C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.1` 
+2. Copy `typescriptServices.js` to `C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TypeScript` 
+
+Make sure you copy the old `.js` files to `.bak.js` in the same directory for safety.
