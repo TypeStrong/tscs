@@ -1,3 +1,7 @@
+# **DEPRECATED**
+
+Please use https://github.com/TypeStrong/tspms
+
 #TypeScript Compiler Services
 
 # Status 
